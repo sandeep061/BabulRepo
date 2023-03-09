@@ -28,6 +28,7 @@ public class BootProj03LayeredAppRealtimeDiApplication {
 	  @Bean("c3p0Ds")
 	  @Profile("test")
 	  public ComboPooledDataSource createC3P0DS()throws Exception {
+		  System.out.println("-----------------");
 		  //sandeeep
 		  System.out.println("BootProj03LayeredAppRealtimeDiApplication.createC3P0DS()");
 		 ComboPooledDataSource cds=new ComboPooledDataSource();
