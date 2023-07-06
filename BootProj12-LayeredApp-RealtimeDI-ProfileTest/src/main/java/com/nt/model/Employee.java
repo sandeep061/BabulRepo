@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Employee {
-   Integer empno;
+  private  Integer empno;
    String ename;
    String desg;
    Double salary;
